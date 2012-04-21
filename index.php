@@ -7,5 +7,6 @@
  * To change this template use File | Settings | File Templates.
  */
 
-echo "this is a test";
+$string = "Hello World!";
+echo $string;
 ?>
