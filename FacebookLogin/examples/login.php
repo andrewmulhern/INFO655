@@ -24,10 +24,6 @@ $facebook = new Facebook(array(
 ));
 
 
-echo "THIS IS A TEST";
-echo $_SERVER['HTTP_REFERER'];
-
-
 // Get User ID
 $user = $facebook->getUser();
 
@@ -48,18 +44,16 @@ if ($user) {
 }
 
 // Login or logout url will be needed depending on current user state.
+// Manually specified logout redirect URL and requested app permissions -AJM
 if ($user) {
   $logoutUrl = $facebook->getLogoutUrl((array(
-      'next' => 'http://localhost/logout.php',
+      'next' => 'http://localhost/INFO655/FacebookLogin/examples/logout.php',
   )));
 } else {
   $loginUrl = $facebook->getLoginUrl(array(
       'req_perms' => 'email,user_birthday,status_update,publish_stream,user_photos,user_videos'
   ));
 }
-
-// This call will always work since we are fetching public data.
-$naitik = $facebook->api('/naitik');
 
 ?>
 <!doctype html>
@@ -104,8 +98,5 @@ $naitik = $facebook->api('/naitik');
       <strong><em>You are not Connected.</em></strong>
     <?php endif ?>
 
-    <h3>Public profile of Naitik</h3>
-    <img src="https://graph.facebook.com/naitik/picture">
-    <?php echo $naitik['name']; ?>
   </body>
 </html>
