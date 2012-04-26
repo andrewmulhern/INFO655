@@ -13,6 +13,9 @@
  * WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the
  * License for the specific language governing permissions and limitations
  * under the License.
+
+ * Modified by: Andrew Mulhern, INFO 655
+
  */
 
 require '../src/facebook.php';
@@ -20,7 +23,7 @@ require '../src/facebook.php';
 // Create our Application instance (replace this with your appId and secret).
 $facebook = new Facebook(array(
   'appId'  => '223093184459540',
-  'secret' => '',
+  'secret' => '7676231dddc69e4fb46b964e24d5158a',
 ));
 
 
@@ -47,19 +50,17 @@ if ($user) {
 // Manually specified logout redirect URL and requested app permissions -AJM
 if ($user) {
   $logoutUrl = $facebook->getLogoutUrl((array(
-      'next' => 'http://localhost/INFO655/FacebookLogin/examples/logout.php',
+      'next' => 'http://localhost/INFO655/FacebookLogin/examples/logout.php',  //Specify logout URL to clear PHP session arrays -AJM
   )));
 } else {
-  $loginUrl = $facebook->getLoginUrl(array(
-      'req_perms' => 'email,user_birthday,status_update,publish_stream,user_photos,user_videos'
-  ));
+  $loginUrl = $facebook->getLoginUrl();
 }
 
 ?>
 <!doctype html>
 <html xmlns:fb="http://www.facebook.com/2008/fbml">
   <head>
-    <title>php-sdk</title>
+    <title>Mulhern Facebook Login</title>
     <style>
       body {
         font-family: 'Lucida Grande', Verdana, Arial, sans-serif;
@@ -74,13 +75,12 @@ if ($user) {
     </style>
   </head>
   <body>
-    <h1>php-sdk</h1>
+    <h1>Mulhern Facebook Login</h1>
 
     <?php if ($user): ?>
       <a href="<?php echo $logoutUrl; ?>">Logout</a>
     <?php else: ?>
       <div>
-        Login using OAuth 2.0 handled by the PHP SDK:
         <a href="<?php echo $loginUrl; ?>">Login with Facebook</a>
       </div>
     <?php endif ?>

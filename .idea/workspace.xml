@@ -4,7 +4,6 @@
     <list default="true" id="9b0afe4c-1fde-4c74-9466-03a79ab9dd87" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacebookLogin/examples/login.php" afterPath="$PROJECT_DIR$/FacebookLogin/examples/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacebookLogin/examples/logout.php" afterPath="$PROJECT_DIR$/FacebookLogin/examples/logout.php" />
     </list>
     <ignored path="INFO655.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -70,7 +69,7 @@
       <file leaf-file-name="login.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="15" selection-start="796" selection-end="796" vertical-scroll-proportion="0.33742332">
+            <state line="52" column="132" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.1411043">
               <folding />
             </state>
           </provider>
@@ -79,7 +78,7 @@
       <file leaf-file-name="logout.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/logout.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="247" selection-end="277" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -105,8 +104,8 @@
         <option value="$PROJECT_DIR$/FacebookLogin/examples/with_js_sdk.php" />
         <option value="$PROJECT_DIR$/FacebookLogin/examples/example.php" />
         <option value="$PROJECT_DIR$/FacebookLogin/examples/test.php" />
-        <option value="$PROJECT_DIR$/FacebookLogin/examples/login.php" />
         <option value="$PROJECT_DIR$/FacebookLogin/examples/logout.php" />
+        <option value="$PROJECT_DIR$/FacebookLogin/examples/login.php" />
       </list>
     </option>
   </component>
@@ -274,7 +273,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26869658" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27510685" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -377,14 +376,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="14" column="0" selection-start="247" selection-end="277" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="15" selection-start="796" selection-end="796" vertical-scroll-proportion="0.33742332">
+        <state line="52" column="132" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.1411043">
           <folding />
         </state>
       </provider>
