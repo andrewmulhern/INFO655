@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9b0afe4c-1fde-4c74-9466-03a79ab9dd87" name="Default" comment="Updated FB login/logout">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FacebookLogin/examples/mulhern-facebook-login.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GI-VIZ-2012/catchingfire-hashtag-timeline.csv" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GI-VIZ-2012/mulhern+444.html" />
+    <list default="true" id="9b0afe4c-1fde-4c74-9466-03a79ab9dd87" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/GI-VIZ-2012/mulhern+442.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="INFO655.iws" />
@@ -71,16 +69,16 @@
       <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="132" selection-start="1761" selection-end="1761" vertical-scroll-proportion="-5.75">
+            <state line="52" column="132" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mulhern+444.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mulhern+444.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GI-VIZ-2012/mulhern+444.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.5705522">
+            <state line="52" column="36" selection-start="1393" selection-end="1401" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,7 +87,16 @@
       <file leaf-file-name="mulhern-viz-example.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GI-VIZ-2012/mulhern-viz-example.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="20" selection-start="1558" selection-end="1590" vertical-scroll-proportion="-18.75">
+            <state line="75" column="20" selection-start="1558" selection-end="1590" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mulhern+442.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/GI-VIZ-2012/mulhern+442.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="0" selection-start="1612" selection-end="1649" vertical-scroll-proportion="0.015337423">
               <folding />
             </state>
           </provider>
@@ -132,9 +139,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="-1" />
     <option name="y" value="25" />
-    <option name="width" value="1920" />
-    <option name="height" value="1175" />
+    <option name="width" value="1922" />
+    <option name="height" value="1180" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -162,6 +170,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,7 +237,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -264,13 +272,6 @@
         <option name="PhingTarget" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
-      <JSDebuggerConfigurationSettings>
-        <option name="engineId" />
-        <option name="fileUrl" />
-      </JSDebuggerConfigurationSettings>
-      <method />
-    </configuration>
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method>
         <option name="FtpUpload" enabled="false">
@@ -279,6 +280,13 @@
         </option>
         <option name="PhingTarget" enabled="false" />
       </method>
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Local">
+      <JSDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSDebuggerConfigurationSettings>
+      <method />
     </configuration>
     <list size="0" />
   </component>
@@ -310,7 +318,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1175" extended-state="6" />
+    <frame x="-1" y="25" width="1922" height="1180" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -318,7 +326,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27831197" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2889957" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -368,7 +376,7 @@
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="CREATE_PATCH_EXPAND_DETAILS_DEFAULT" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated FB login/logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Module 4 Code" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -389,6 +397,7 @@
     <MESSAGE value="Adding Facebook Login code" />
     <MESSAGE value="Updated index.php" />
     <MESSAGE value="Updated FB login/logout" />
+    <MESSAGE value="Adding Module 4 Code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -419,28 +428,33 @@
         <state line="58" column="1" selection-start="1775" selection-end="1775" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="247" selection-end="277" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="132" selection-start="1761" selection-end="1761" vertical-scroll-proportion="-5.75">
+        <state line="52" column="132" selection-start="1761" selection-end="1761" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GI-VIZ-2012/mulhern+444.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="36" selection-start="1393" selection-end="1401" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/GI-VIZ-2012/mulhern-viz-example.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="20" selection-start="1558" selection-end="1590" vertical-scroll-proportion="-18.75">
+        <state line="75" column="20" selection-start="1558" selection-end="1590" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GI-VIZ-2012/mulhern+444.html">
+    <entry file="file://$PROJECT_DIR$/FacebookLogin/examples/logout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="0" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.5705522">
+        <state line="14" column="0" selection-start="247" selection-end="277" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GI-VIZ-2012/mulhern+442.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="1612" selection-end="1649" vertical-scroll-proportion="0.015337423">
           <folding />
         </state>
       </provider>
