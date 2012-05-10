@@ -72,7 +72,7 @@
                     }
             )
             .style("opacity", 0)
-            .append("h2").text('asdf')
+            .append("h2");
 
             d3.selectAll("h2")
             .text(
@@ -81,7 +81,7 @@
                 }
             )
             .style("color", "black")
-            .attr("style", function(data) { return "position:relative; top:"+data.bar*.075+"px"; });
+            .attr("style", function(data) { return "position:relative; top:"+data.bar*.09+"px"; });
 
             divs.exit().transition().duration(transitionDurationMS)
             .style("opacity", 0)
@@ -89,11 +89,11 @@
 
             divs.transition().duration(transitionDurationMS)
             .style("opacity",1)
-            .style("height", function(d){ return d.bar*.075+"px" })
+            .style("height", function(d){ return d.bar*.09+"px" })
             .text(ƒ('toFixed'));
 
-            divs.selectAll()
         });
+
     </script>
 </body>
 </html>
